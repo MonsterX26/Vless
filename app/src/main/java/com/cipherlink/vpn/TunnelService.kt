@@ -143,7 +143,7 @@ class TunnelService : VpnService() {
         val builder = NotificationCompat.Builder(this, CHANNEL)
             .setContentTitle(title)
             .setContentText(text)
-            .setSmallIcon(android.R.drawable.stat_sys_vpn_ic)
+            .setSmallIcon(R.drawable.ic_vpn_notification)
             .setContentIntent(pendingIntent)
             .setOngoing(title == "connecté" || title == "démarrage…")
             .setOnlyAlertOnce(true)
