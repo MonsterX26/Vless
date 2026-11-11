@@ -1,0 +1,4 @@
+CipherLink résout automatiquement sing-box libbox 1.14.0 depuis JitPack via app/build.gradle.kts.
+Aucun fichier libbox.aar manuel n'est requis.
+Si tu utilises un build libbox personnalisé, configure-le explicitement dans Gradle et vérifie
+que ses ABI et son API gomobile correspondent à la version attendue par CoreBridge.kt.
